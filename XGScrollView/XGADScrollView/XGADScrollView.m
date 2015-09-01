@@ -51,7 +51,7 @@
 //MARK: - 布局ScrollView
 - (void)layoutScrollView{
     
-    
+    self.timeInterval = 2.0;
     _scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0.0, 0.0, self.frame.size.width, self.frame.size.height)];
     _scrollView.backgroundColor = [UIColor whiteColor];
     _scrollView.showsVerticalScrollIndicator = NO;
